@@ -1,6 +1,6 @@
 # UMD Events Dialogue System (Testudo Bot)
 
-**Team:** Group-7 (Chanakya Chelamkuri, Manoj Kumar Bashaboina, Vineet Jujjavarapu, Venkata Siva Rajesh Vithanala)
+
 
 **Course:** DATA641 Natural Language Processing, University of Maryland
 
@@ -172,3 +172,4 @@ The system includes a `/test` command within the chat interface to run evaluatio
 - **Database Connection Errors:** Ensure the `db` service is "healthy" before the app tries to connect. The `docker-compose.yaml` includes a health check for this purpose.
 - **Missing API Key:** If the chat does not respond, verify that `OPENROUTER_API_KEY` is set correctly in your `.env` file.
 - **Dependencies:** If running locally without Docker, ensure you install the "Missing Dependencies Fix" listed in `requirements.txt` (specifically `python-dateutil` and `pytz`).
+
